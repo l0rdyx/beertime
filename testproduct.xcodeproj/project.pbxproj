@@ -39,9 +39,22 @@
 		F160F2882E2873DD000C7A1F /* testproduct Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testproduct Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F160F2A32E2874F4000C7A1F /* Exceptions for "testproduct Watch App" folder in "testproduct Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F160F2872E2873DD000C7A1F /* testproduct Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F160F28C2E2873DD000C7A1F /* testproduct Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F160F2A32E2874F4000C7A1F /* Exceptions for "testproduct Watch App" folder in "testproduct Watch App" target */,
+			);
 			path = "testproduct Watch App";
 			sourceTree = "<group>";
 		};
@@ -317,7 +330,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"testproduct Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = F4ZFRAK9P8;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/testproduct Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = testproduct;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -347,7 +361,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"testproduct Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = F4ZFRAK9P8;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/testproduct Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = testproduct;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -374,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F4ZFRAK9P8;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = testproduct;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.glebco.testproduct;
@@ -389,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F4ZFRAK9P8;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_CFBundleDisplayName = testproduct;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.glebco.testproduct;
